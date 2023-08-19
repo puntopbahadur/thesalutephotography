@@ -69,8 +69,7 @@ ul {
 }
 
 
-/* 
------------utility class---------------- */
+/* -----------utility class---------------- */
 .small-bold-text {
     font-size: 1rem;
     font-weight: 700;
@@ -91,7 +90,7 @@ ul {
 .sub-title {
     font-family: 'Bricolage Grotesque', sans-serif;
 }
-/* nav bar */
+/* <!-- -------------nav-bar--------------- --> */
 .main-nav {
     margin-top: 20px;
     justify-content: space-between;
@@ -117,7 +116,7 @@ ul {
 .nav-toggle{
     display:none;
 }
-/* header*/
+/* ------------------header section------------*/
 header{
     padding: 50px var(--padding-inline-section) 0;
 }
@@ -132,13 +131,14 @@ header{
     margin-top: 20px;
 }
 .get-started-button{
-    margin: 20px;
+    margin-top: 20px;
+}
+.header-right{
+    width:100%;
 }
 .header-right img{
     width:100%;
 }
-
-
 
 .hover-link {
     color: var(--primary-text-color);
@@ -166,7 +166,7 @@ header{
 } 
 
 
-/*about section */
+/* <!-- -----------------about section------------------- --> */
 #about {
     margin-top:3rem;
 }
@@ -196,7 +196,7 @@ header{
     text-align: justify;
 }
 
-/* Learnings section */
+/* ------------------Learnings section --------------------*/
 
 .learnings-Section{
     text-align: center;
@@ -228,7 +228,7 @@ header{
 #second-big-learnings{
     flex-direction: row-reverse;
 }
-/*image section*/
+/*---------------------image section-------------------*/
 
 .sub-title-pic {
     text-align: center;
@@ -249,7 +249,6 @@ header{
 .box {
     width: 350px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    transition: 0.5s ease-in-out;
 
 }
 
@@ -260,12 +259,7 @@ header{
     border-radius: 10px;
 }
 
-.box:hover {
-    transform: scale(1.3);
-    z-index: 2;
-}
-
-/*contact*/
+/*--------------------contact section----------------*/
 .contact {
     margin-top: 3rem;
 }
